@@ -99,6 +99,5 @@ num_as_str = "o valor é \"1023\"  "
 print(num_as_str)
 
 
-
 media = 10
 print(f"o joao foi aluno da \"ATEC\" com media de {media}")
