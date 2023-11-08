@@ -205,7 +205,75 @@ print("-" * 2)
 for elm in myDict.values():
     print(elm) #print dos valroes
 
-
 #funcs
+print("-" * 10, "Funções", "-" * 10)
+
+def nome():
+    print("Ola Mundo")
+
+nome()
+nome()
+nome()
+
+def greeting(nome):
+    print(f"Ola {nome}, bem vindo!!")
+
+print("-" * 3)
+
+greeting("Gonçalo")
+greeting("Ana")
+greeting("Rita")
+
+nome2 = input("Qual o seu nome: ")
+greeting(nome2)
 
 
+print("-" * 3)
+def greeting2(nome, ano):
+    print(f"Ola {nome}, bem vindo ao ano de {ano}!!")
+
+greeting2("Carlos", 2015)
+greeting2("Carlos 2", 2015)
+
+
+print("-" * 3)
+
+def sumVals(valor1, valor2):
+    soma = valor1 + valor2
+    return soma
+
+
+resultado = sumVals(10, 15)
+print(resultado)
+
+def multip(valor1, valor2):
+    soma = valor1 * valor2
+    return soma
+
+
+# 10 + 2 * 4
+
+# 2 * 4
+resMultip = multip(2, 4)
+
+# 10 + resMultip
+resultado2 = sumVals(10, resMultip)
+print(resultado2)
+
+
+print("-" * 3)
+
+
+resultado3 = sumVals(10, multip(2, 4))
+print(resultado3)
+
+
+def greeting3(nome2:str) -> str:
+    return f"Ola {nome2.capitalize()}, bem vindo!!"
+
+
+
+
+res_srt = greeting3("gonçalo")
+
+print(res_srt)
