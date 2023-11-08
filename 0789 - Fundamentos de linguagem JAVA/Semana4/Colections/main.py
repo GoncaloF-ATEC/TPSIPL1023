@@ -206,5 +206,6 @@ for elm in myDict.values():
     print(elm) #print dos valroes
 
 
-
 #funcs
+
+
