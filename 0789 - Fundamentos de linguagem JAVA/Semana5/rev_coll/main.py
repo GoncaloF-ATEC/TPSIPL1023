@@ -54,3 +54,62 @@ for i in range(0, list_size2):
 
 
 print("-" * 10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+
+Faça um Programa que leia 20 números inteiros e armazene-os num vetor.
+Armazene os números pares no vetor PAR e os números IMPARES no vetor impar.
+Imprima os três vetores.
+
+
+
+
+ler 20 números inteiros
+adicionar os numeros a uma lista
+
+adicionar os números pares na lista -> Par 
+adicionar os números impares na lista -> Impares  
+Imprima
+    lista com todos os numeros
+    lista Par
+    lista Impar
+
+"""
+
+
+"""
+Foram anotadas as idades e alturas de 30 alunos.
+Faça um Programa que determine quantos alunos com mais de 13 anos 
+ossuem altura inferior à média de altura desses alunos.
+ 
+ 
+ 
+
+"""
+
+lista = [1, 3, 3]
+
+
+def soma(lista):
+    total = 0
+    for elm in lista:
+        # total2 = total + elm
+        # total = total2
+        total += elm
+
+    return total
+
+print(soma(lista))
