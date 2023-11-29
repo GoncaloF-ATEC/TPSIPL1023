@@ -1,5 +1,5 @@
 """
-Criar uma app que premita registar alunos numa turma
+Criar uma app que premita registar alunos numa turma, sem alunos duplicados (com o nesmo número)
 
 """
 
