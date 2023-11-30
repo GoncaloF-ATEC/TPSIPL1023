@@ -15,9 +15,9 @@ demo de:
 
     def __eq__(self, other): ## comparação == <->  al1 == al2
         return self.numero == other.numero
-        
-        
+
 """
+
 print("-" * 10)
 turma = Turma("TPISPL", 1023)
 turma2 = Turma("TPISPl", 1023)
@@ -31,3 +31,6 @@ al3 = Aluno(20, "Rita", turma)
 
 print(al == al2)
 print(al3 == al2)
+
+
+al.teste()
