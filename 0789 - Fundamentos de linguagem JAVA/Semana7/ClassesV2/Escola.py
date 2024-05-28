@@ -37,10 +37,7 @@ class Escola:
             """
             nome_sep = nome[:-4]
             ano_sep = int(nome[-4:])
-
-            t = Turma(nome_sep, ano_sep)
-            self.turmas.append(t)
-            return t
+            self.cirar_turma(nome_sep, ano_sep)
 
 
     def criar_aluno(self, nome: str, idade: int, turma: str):

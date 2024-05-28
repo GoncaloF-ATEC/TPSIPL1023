@@ -11,28 +11,67 @@ class Node():
 class LinkedList:
     def __init__(self, head=None):
         self.head = head
+        self.tail = head
 
-    def addNodeHead(self, data, nextNode: Node = None):
+    def addNodeHead(self, data):
+        """
+        Adiciona um node no head da lista
+        :param data: Valor a ser adicionado a Lista
+        :raise ValueError se data = None
+        """
+
+
+        if data is None:
+            raise ValueError("Data cannot be None")
+
+
         newNode = Node(data)
         newNode.next_node = self.head
         self.head = newNode
+        if self.tail is None:
+            self.tail = newNode
 
 
-    def addNodeTail(self, data, nextNode: Node = None):
+    def addNodeTail(self, data: object) -> object:
+        """
+
+           Adiciona um node no tail da lista
+
+           :param data: Valor a ser adicionado a Lista
+           :raise ValueError se data = None
+
+           """
+
+        if data is None:
+            raise ValueError("Data cannot be None")
+
         newNode = Node(data)
-        if self.head == None:
+
+        if self.head is None:
             self.head = newNode
+            self.tail = newNode
         else:
-             self.__get_last_node().next_node = newNode
+
+            self.tail.next_node = newNode
+            self.tail = newNode
+
+    def addAfterNode(self, data, new_data):
+        if data is None:
+            raise ValueError("Data cannot be None")
+        if new_data is None:
+            raise ValueError("Data cannot be None")
 
 
-
-    def addAfterNode(self, data, new_data, nextNode: Node = None):
-        pass
+        node = self.find_node(data)
+        new_node = Node(new_data, nextNode= node.next_node)
+        node.next_node = new_node
 
 
     def removeNode(self, data) -> Node:
         pass
+
+
+
 
 
     def isEmpty(self) -> bool:
@@ -40,7 +79,32 @@ class LinkedList:
 
 
     def find_node(self, data) -> Node:
-        pass
+        """
+        procura um node, se o node não existir devolve o tail (Ultimo valor da lista)
+        :param data: valor a porcurar
+        :return: node que contem o valor
+        """
+        temp = self.head
+        while temp.next_node:
+            if temp.data == data:
+                return temp
+            temp = temp.next_node
+        return temp
+
+    def conteins(self, data) -> (bool, Node):
+        """
+
+        devolve um tuplo que indica se um valor esta contido na lista.
+
+        se existir devolve um tuplo comm (True, Node)
+        se não existir devolve um tuplo comm (False, None)
+
+        :param data:
+        :return:
+        """
+
+        node = self.find_node(data)
+        return (node is not None, node)
 
 
     def __get_last_node(self) -> Node:
@@ -55,3 +119,4 @@ class LinkedList:
         while temp is not None:
             print(temp.data)
             temp = temp.next_node
+
