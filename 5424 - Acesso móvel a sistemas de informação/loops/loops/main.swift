@@ -81,3 +81,15 @@ default:
     print("Outro val")
     
 }
+
+
+
+
+
+
+var s = "10"
+
+var i = Int(s) ?? 0
+
+print(i)
+
