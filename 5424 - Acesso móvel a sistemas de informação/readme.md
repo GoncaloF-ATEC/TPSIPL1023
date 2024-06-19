@@ -6,6 +6,7 @@
 * condições
   * `if`
   * `Switch`
+* range (`n...m`) 
 * Loops
   * `for`
   * `while`
