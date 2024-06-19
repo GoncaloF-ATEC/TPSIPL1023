@@ -11,11 +11,12 @@
   * `for`
   * `while`
   * `repeat{} while`
-*  funcs
-*  opts
-*  `class`
- * `static`
- * `lazy`
- * property observer
- * compued property
+* funcs
+* opts
+* `class`
+  * `static`
+  * `lazy`
+  * property observer
+  * compued property
+ 
  * Singleton
