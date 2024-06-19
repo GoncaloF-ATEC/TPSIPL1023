@@ -18,5 +18,4 @@
   * `lazy`
   * property observer
   * compued property
- 
  * Singleton
