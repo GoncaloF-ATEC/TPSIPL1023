@@ -17,5 +17,9 @@
   * `static`
   * `lazy`
   * property observer
-  * compued property
+    * `didSet`
+    * `willSet` 
+  * computed property
+    * `get`
+    * `set` 
  * Singleton
