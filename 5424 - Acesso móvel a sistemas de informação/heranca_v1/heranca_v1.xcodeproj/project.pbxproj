@@ -11,6 +11,7 @@
 		4FF98F8F2C2B51FD00E09AA0 /* Aluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF98F8E2C2B51FD00E09AA0 /* Aluno.swift */; };
 		4FF98F912C2B521900E09AA0 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF98F902C2B521900E09AA0 /* Pessoa.swift */; };
 		4FF98F932C2B532700E09AA0 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF98F922C2B532700E09AA0 /* Professor.swift */; };
+		4FF98F952C2B5C7900E09AA0 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF98F942C2B5C7900E09AA0 /* utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		4FF98F8E2C2B51FD00E09AA0 /* Aluno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aluno.swift; sourceTree = "<group>"; };
 		4FF98F902C2B521900E09AA0 /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
 		4FF98F922C2B532700E09AA0 /* Professor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		4FF98F942C2B5C7900E09AA0 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				4FF98F8E2C2B51FD00E09AA0 /* Aluno.swift */,
 				4FF98F902C2B521900E09AA0 /* Pessoa.swift */,
 				4FF98F922C2B532700E09AA0 /* Professor.swift */,
+				4FF98F942C2B5C7900E09AA0 /* utils.swift */,
 			);
 			path = heranca_v1;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF98F952C2B5C7900E09AA0 /* utils.swift in Sources */,
 				4FF98F882C2B519900E09AA0 /* main.swift in Sources */,
 				4FF98F932C2B532700E09AA0 /* Professor.swift in Sources */,
 				4FF98F912C2B521900E09AA0 /* Pessoa.swift in Sources */,

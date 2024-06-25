@@ -12,7 +12,7 @@ import Foundation
 var al = Aluno(nome: "Carlos", idade: 20, email: "foo@sapo.pt", turma: "TPSI")
 var al2 = Aluno(nome: "Rita", idade: 20, email: "Rita@sapo.pt", turma: "TPSI")
 
-var porf = Professor(nome: "João", idade: 30, email: "jcp@atec.pt")
+var porf = Professor(nome: "João", idade: 30, email: "jcp@atec.pt", listaTurmas: ["turma do joao"])
 var porf2 = Professor(nome: "Maria", idade: 50, email: "mcp@atec.pt")
 
 
@@ -38,13 +38,40 @@ for p in lista{
 print("-----------------------------")
 
 
+for p in lista{
+    
+    guard let p2 = p as? Professor, p2.listaTurmas.isEmpty else {
+        print("\(p.nome) não é Porfessor ou é um Porfessor ja com turma")
+        continue
+    }
+    p2.listaTurmas.append("Nova turma")
+}
+
+print("-----------------------------")
 
 for p in lista{
     
-    guard let p2 = p as? Professor else {
-        print("\(p.nome) não é Porfessor")
-        continue
-    }
-    p2.funcDoProfessor()
+    if p is Professor{
+
+        let p2 = p as! Professor
+        
+        print(p2.getInfo())
     
+    }
 }
+
+print("-----------------------------")
+
+
+print(lista.getArrayType())
+print("-----------------------------")
+
+
+var notas = [10, 13, 14, 9, 19, 18]
+print(notas.media())
+
+var notas2 = [10, 13]
+print(notas2.media())
+
+
+lista.getArrayType()
