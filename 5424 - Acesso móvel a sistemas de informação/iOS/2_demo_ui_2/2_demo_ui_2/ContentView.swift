@@ -33,13 +33,15 @@ struct ContentView: View {
             .textFieldStyle(.roundedBorder)
             
             Button{
-              //  vm.nomeTF = "Novo Nome 3"
                 vm.mudarNome()
             }label: {
-                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+               BtnView(txt: "Definir o nome")
             }
 
         }
+        
+        
+        BtnView(txt: "Ok")
         .padding()
         .alert(isPresented: $vm.erro) {
           //Alert(title: Text("nome vazio"))

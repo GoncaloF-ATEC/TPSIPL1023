@@ -12,6 +12,7 @@
 		4F8B5A082C46C60D00EB7441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8B5A072C46C60D00EB7441 /* Assets.xcassets */; };
 		4F8B5A0B2C46C60D00EB7441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8B5A0A2C46C60D00EB7441 /* Preview Assets.xcassets */; };
 		4F8B5A122C46CA7F00EB7441 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5A112C46CA7F00EB7441 /* ContentViewModel.swift */; };
+		4F8B5A152C46D1A700EB7441 /* BtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B5A142C46D1A700EB7441 /* BtnView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4F8B5A072C46C60D00EB7441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F8B5A0A2C46C60D00EB7441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F8B5A112C46CA7F00EB7441 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		4F8B5A142C46D1A700EB7441 /* BtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4F8B5A032C46C60C00EB7441 /* demo_ui_2App.swift */,
 				4F8B5A072C46C60D00EB7441 /* Assets.xcassets */,
 				4F8B5A092C46C60D00EB7441 /* Preview Content */,
+				4F8B5A142C46D1A700EB7441 /* BtnView.swift */,
 			);
 			path = 2_demo_ui_2;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				4F8B5A062C46C60C00EB7441 /* ContentView.swift in Sources */,
 				4F8B5A042C46C60C00EB7441 /* demo_ui_2App.swift in Sources */,
 				4F8B5A122C46CA7F00EB7441 /* ContentViewModel.swift in Sources */,
+				4F8B5A152C46D1A700EB7441 /* BtnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
