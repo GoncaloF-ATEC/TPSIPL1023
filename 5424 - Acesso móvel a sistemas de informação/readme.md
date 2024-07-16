@@ -4,11 +4,22 @@
 * operações com var
 * typeCast
 * condições
-  * if
-  * Switch
+  * `if`
+  * `Switch`
+* range (`n...m`) 
 * Loops
-  * for
-  * while
-  * repeat while
-*  funcs
-*  opts  
+  * `for`
+  * `while`
+  * `repeat{} while`
+* funcs
+* opts
+* `class`
+  * `static`
+  * `lazy`
+  * property observer
+    * `didSet`
+    * `willSet` 
+  * computed property
+    * `get`
+    * `set` 
+ * Singleton
