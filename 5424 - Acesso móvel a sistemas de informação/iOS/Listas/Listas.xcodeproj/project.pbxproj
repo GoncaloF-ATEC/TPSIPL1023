@@ -124,7 +124,6 @@
 			);
 			mainGroup = 4F6C6E542C5003EF00EC7C19;
 			packageReferences = (
-				4F6C6E742C50096300EC7C19 /* XCRemoteSwiftPackageReference "faker" */,
 			);
 			productRefGroup = 4F6C6E5E2C5003EF00EC7C19 /* Products */;
 			projectDirPath = "";
@@ -361,17 +360,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4F6C6E742C50096300EC7C19 /* XCRemoteSwiftPackageReference "faker" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/faker-ruby/faker";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 4F6C6E552C5003EF00EC7C19 /* Project object */;
 }
