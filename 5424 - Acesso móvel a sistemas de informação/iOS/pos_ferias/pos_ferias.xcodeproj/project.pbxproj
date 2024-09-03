@@ -12,6 +12,8 @@
 		4FCD53FE2C87995200D5CB76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD53FD2C87995200D5CB76 /* Assets.xcassets */; };
 		4FCD54012C87995200D5CB76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD54002C87995200D5CB76 /* Preview Assets.xcassets */; };
 		4FCD54082C879AE300D5CB76 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD54072C879AE300D5CB76 /* utils.swift */; };
+		4FCD540A2C87AA0500D5CB76 /* ListaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD54092C87AA0500D5CB76 /* ListaView.swift */; };
+		4FCD540C2C87ABA800D5CB76 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD540B2C87ABA800D5CB76 /* ToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		4FCD53FD2C87995200D5CB76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FCD54002C87995200D5CB76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FCD54072C879AE300D5CB76 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		4FCD54092C87AA0500D5CB76 /* ListaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaView.swift; sourceTree = "<group>"; };
+		4FCD540B2C87ABA800D5CB76 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				4FCD53FD2C87995200D5CB76 /* Assets.xcassets */,
 				4FCD53FF2C87995200D5CB76 /* Preview Content */,
 				4FCD54072C879AE300D5CB76 /* utils.swift */,
+				4FCD54092C87AA0500D5CB76 /* ListaView.swift */,
+				4FCD540B2C87ABA800D5CB76 /* ToDoView.swift */,
 			);
 			path = pos_ferias;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			files = (
 				4FCD54082C879AE300D5CB76 /* utils.swift in Sources */,
 				4FCD53FC2C87995000D5CB76 /* ContentView.swift in Sources */,
+				4FCD540A2C87AA0500D5CB76 /* ListaView.swift in Sources */,
 				4FCD53FA2C87995000D5CB76 /* pos_feriasApp.swift in Sources */,
+				4FCD540C2C87ABA800D5CB76 /* ToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

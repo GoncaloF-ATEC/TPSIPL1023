@@ -14,16 +14,27 @@ struct ContentView: View {
     @State var id = 0;
     
     var body: some View {
-        VStack {
-            
-            
-            Text(vm.getTodo(id: id)?.title ?? "sem Info")
-            Stepper("id: \(self.id)", value: self.$id)
-            
-        }//VStack
-        .padding()
-        .task {
-            try! await vm.loadAllData()
+        NavigationStack{
+            VStack {
+                
+                Spacer()
+                Text(vm.getTodo(id: id)?.title ?? "sem Info")
+                Stepper("id: \(self.id)", value: self.$id)
+                
+                
+                Spacer()
+                NavigationLink {
+                    ListaView(listaTodos: vm.myTodoList)
+                } label: {
+                    Text("Go to Lista")
+                }
+
+                Spacer()
+            }//VStack
+            .padding()
+            .task {
+                try! await vm.loadAllData()
+            }
         }
     }
 }
