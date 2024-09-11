@@ -20,6 +20,7 @@ import androidx.navigation.NavController
 
 @Composable
 fun HomeActivity(navCtrl: NavController){
+    var nome = "Gonçalo"
 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -29,9 +30,7 @@ fun HomeActivity(navCtrl: NavController){
     ) {
 
         Button(onClick = {
-
-            navCtrl.navigate("info")
-
+            navCtrl.navigate("info/$nome/Novo_txt")
         }) {
             Text("go to View 2")
         }

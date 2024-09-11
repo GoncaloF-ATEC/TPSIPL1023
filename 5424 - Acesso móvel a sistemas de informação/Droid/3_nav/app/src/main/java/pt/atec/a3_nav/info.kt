@@ -10,7 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun infoActivity(){
+fun infoActivity(nome: String, nome2: String){
 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -19,7 +19,8 @@ fun infoActivity(){
 
     ) {
 
-       Text("View 2")
+       Text("$nome View 2")
+        Text("$nome2 View 2")
 
     }
 
