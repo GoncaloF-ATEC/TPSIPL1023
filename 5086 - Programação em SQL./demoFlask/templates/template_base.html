@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block titulo %}
+
+        {% endblock %}
+    </title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='base.css') }}">
+</head>
+<body>
+
+<nav>
+
+    <a href="{{ url_for("index") }}"> Home page</a>
+    <a href="{{ url_for("infos") }}"> Lista de alunos</a>
+    <a href="{{ url_for("add_aluno") }}"> adicionar alunos</a>
+
+</nav>
+<main>
+      {% block conteudo %}
+
+        {% endblock %}
+</main>
+
+</body>
+</html>

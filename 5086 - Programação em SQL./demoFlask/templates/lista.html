@@ -1,0 +1,22 @@
+{% extends "template_base.html" %}
+
+
+{% block titulo %}
+    {{ titulo }}
+{% endblock %}
+
+
+{% block conteudo %}
+
+    <h1> {{ titulo }}</h1>
+
+    <ul>
+
+    {% for i in pessoas %}
+        <li> <a href="" >{{ i.nome }}</a> </li>
+    {% endfor %}
+
+    </ul>
+
+
+{% endblock %}

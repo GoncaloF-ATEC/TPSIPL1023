@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+
+}
+
+h1{
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color: brown;
+}
